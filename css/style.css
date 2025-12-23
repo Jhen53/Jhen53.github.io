@@ -128,3 +128,14 @@ footer {
 .hero p {
     animation-delay: 0.3s;
 }
+    
+main section h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+main section p {
+    max-width: 700px;
+    line-height: 1.8;
+    font-size: 16px;
+}
