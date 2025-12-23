@@ -35,28 +35,38 @@ nav a:hover {
 }
 
 .hero {
-    background-color: #ddd;
-    padding: 80px 20px;
+    position: relative;
+    height: 70vh;
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    );
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+
 }
 
+
 .hero h1 {
-    font-size: 36px;
-    margin-bottom: 16px;
+    font-size: 48px;
+    letter-spacing: 2px;
 }
 
 .hero p {
-    max-width: 700px;
-    margin: 0 auto;
-    font-size: 16px;
+    font-size: 18px;
+    max-width: 600px;
 }
 
 .placeholder {
-    margin: 40px auto;
-    max-width: 800px;
-    border: 2px dashed #aaa;
-    padding: 40px;
-    background-color: #fafafa;
+    background-color: rgba(255,255,255,0.85);
+    border: none;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    padding: 60px;
+
 }
 
 main {
