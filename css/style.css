@@ -100,7 +100,9 @@ body {
   font-size: 12px;
   letter-spacing: 2px;
   opacity: 0.5;
+  text-align: center;
 }
+
 
 .hero-cta {
   margin-top: 56px;
