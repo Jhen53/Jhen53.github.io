@@ -139,3 +139,89 @@ main section p {
     line-height: 1.8;
     font-size: 16px;
 }
+/* ===== HERO SECTION ===== */
+
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    #0b0b0b 0%,
+    #111111 60%,
+    #151515 100%
+  );
+  color: #ffffff;
+  text-align: center;
+  padding: 0 24px;
+}
+
+.hero-content {
+  max-width: 900px;
+  animation: fadeUp 1.2s ease-out forwards;
+}
+
+.hero-title {
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 24px;
+}
+
+.hero-tagline {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #cccccc;
+  margin-bottom: 48px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ===== BUTTONS ===== */
+
+.btn {
+  text-decoration: none;
+  padding: 14px 28px;
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.btn.primary {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn.primary:hover {
+  background-color: #e5e5e5;
+}
+
+.btn.secondary {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn.secondary:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* ===== ANIMATION ===== */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
