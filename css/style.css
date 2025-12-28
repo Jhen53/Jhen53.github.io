@@ -225,3 +225,40 @@ main section p {
     transform: translateY(0);
   }
 }
+.hero-hint {
+  margin-top: 24px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.hero-cta {
+  margin-top: 40px;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 14px 30px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border-radius: 999px;
+  transition: 0.3s;
+}
+
+.btn.primary {
+  background: white;
+  color: black;
+}
+
+.btn.secondary {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
