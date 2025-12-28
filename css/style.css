@@ -166,3 +166,7 @@ footer {
   opacity: 0.5;
   background: #000;
 }
+.page-header {
+  padding-top: 140px;
+  scroll-margin-top: 120px;
+}
