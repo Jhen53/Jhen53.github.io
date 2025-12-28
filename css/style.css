@@ -171,3 +171,7 @@ footer {
 .page-top {
   padding-top: 140px;
 }
+.page-header {
+  padding: 80px 24px 60px;
+  text-align: center;
+}
