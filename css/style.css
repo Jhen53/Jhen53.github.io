@@ -280,4 +280,14 @@ footer {
   padding-bottom: 60px;
   text-align: center;
 }
+/* ===== FORCE HERO CENTER FIX ===== */
+.hero-content {
+  text-align: center !important;
+}
+
+.hero-content p {
+  text-align: center !important;
+  margin-left: auto;
+  margin-right: auto;
+}
 
