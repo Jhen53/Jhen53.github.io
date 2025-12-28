@@ -90,7 +90,9 @@ body {
   line-height: 1.8;
   max-width: 520px;
   margin: 0 auto;
+  text-align: center; /* 關鍵 */
 }
+
 
 
 .hero-hint {
