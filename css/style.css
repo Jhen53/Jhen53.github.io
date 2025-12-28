@@ -76,10 +76,12 @@ body {
 }
 
 .hero-title {
-  font-size: 48px;
-  letter-spacing: 6px;
-  margin-bottom: 24px;
+  font-size: 56px;
+  letter-spacing: 8px;
+  margin-bottom: 28px;
+  font-weight: 700;
 }
+
 
 .hero-tagline {
   font-size: 16px;
