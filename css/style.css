@@ -236,4 +236,28 @@ footer {
   max-width: 420px;
   opacity: 0.85;
 }
+.characters-hero {
+  margin-top: 90px;
+  padding: 100px 24px;
+  background: #000;
+  text-align: center;
+}
+
+.characters-hero h1 {
+  font-size: 56px;
+  letter-spacing: 8px;
+}
+
+.characters-hero p {
+  margin-top: 16px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.character-film {
+  display: flex;
+  gap: 40px;
+  padding: 80px 0;
+  border-top: 1px solid #222;
+}
 
