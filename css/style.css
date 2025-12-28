@@ -66,8 +66,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  padding-top: 60px; /* 關鍵：把內容往上拉回視覺中心 */
 }
+
 
 .hero-content {
   max-width: 800px;
