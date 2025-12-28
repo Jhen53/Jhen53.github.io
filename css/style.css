@@ -261,4 +261,9 @@ footer {
   padding: 80px 0;
   border-top: 1px solid #222;
 }
+.page-header {
+  padding-top: 140px; /* 撐開給 fixed navbar */
+  padding-bottom: 60px;
+  text-align: center;
+}
 
