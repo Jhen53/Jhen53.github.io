@@ -109,13 +109,14 @@ body {
 
 /* ===== Buttons ===== */
 .btn {
-  padding: 14px 30px;
-  font-size: 14px;
-  letter-spacing: 1px;
+  padding: 16px 36px;
+  font-size: 13px;
+  letter-spacing: 1.5px;
   text-decoration: none;
   border-radius: 999px;
   transition: 0.3s;
 }
+
 
 .btn.primary {
   background: #fff;
