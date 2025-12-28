@@ -175,4 +175,65 @@ footer {
   padding: 16px 24px 48px;
   text-align: center;
 }
+/* ===== Characters Page (Film Style) ===== */
+
+.characters-hero {
+  padding: 140px 24px 100px;
+  text-align: center;
+  background: #000;
+}
+
+.characters-hero h1 {
+  font-size: 48px;
+  letter-spacing: 6px;
+  margin-bottom: 16px;
+}
+
+.characters-hero p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  opacity: 0.7;
+}
+
+/* Characters list */
+.characters-list {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px 120px;
+}
+
+/* Single character block */
+.character-film {
+  display: flex;
+  gap: 48px;
+  margin-bottom: 120px;
+  align-items: center;
+}
+
+/* Image placeholder */
+.character-image {
+  flex: 0 0 300px;
+  height: 380px;
+}
+
+/* Text */
+.character-text h2 {
+  font-size: 28px;
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+}
+
+.character-text .role {
+  font-size: 12px;
+  letter-spacing: 2px;
+  opacity: 0.6;
+  margin-bottom: 24px;
+}
+
+.character-text p {
+  font-size: 15px;
+  line-height: 1.8;
+  max-width: 420px;
+  opacity: 0.85;
+}
 
