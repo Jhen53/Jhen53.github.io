@@ -66,7 +66,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 40px; /* 關鍵：把內容往上拉回視覺中心 */
+  transform: translateY(-40px); /* 一定會看到變化 */
 }
 
 
