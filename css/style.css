@@ -26,12 +26,10 @@ body {
 }
 
 .nav-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 48px;
+  padding: 48px 56px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .nav-logo {
