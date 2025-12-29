@@ -484,11 +484,9 @@ footer {
 /* ===== Playful staggered menu ===== */
 
 .menu-links li {
-  opacity: 0;
-  transform: translateY(12px);
   transition:
-    opacity 0.35s ease-out,
-    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+    opacity 0.25s ease-out,
+    transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 /* 選單打開時 */
