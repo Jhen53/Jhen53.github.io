@@ -1,17 +1,12 @@
-// Phase 2 – Basic interaction
-console.log("Official Film Website – Phase 2 loaded");
+console.log("menu script loaded");
 
-const toggle = document.getElementById("menuToggle");
-const menu = document.getElementById("fullscreenMenu");
-const body = document.body;
+const menuToggle = document.getElementById("menuToggle");
+const menu = document.getElementById("menu");
 
-if (toggle && menu) {
-  toggle.addEventListener("click", () => {
-    const isOpen = menu.classList.toggle("active");
-
-    // 改用最穩定的符號
-    toggle.textContent = isOpen ? "×" : "☰";
-
-    body.classList.toggle("menu-open", isOpen);
+if (menuToggle && menu) {
+  menuToggle.addEventListener("click", () => {
+    menu.classList.toggle("active");
   });
+} else {
+  console.log("menuToggle or menu not found");
 }
