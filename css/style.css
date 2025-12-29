@@ -480,3 +480,13 @@ footer {
 .menu-open .nav-menu-icon {
   transform: rotate(90deg);
 }
+/* ===== Hero blur when menu open ===== */
+.menu-open .hero {
+  filter: blur(6px) brightness(0.85);
+  transition: filter 0.6s ease;
+}
+
+/* 保證 Hero 本來是清晰的 */
+.hero {
+  transition: filter 0.6s ease;
+}
