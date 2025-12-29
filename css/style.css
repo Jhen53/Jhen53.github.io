@@ -405,7 +405,11 @@ footer {
   user-select: none;
 
   transition: transform 0.4s ease, opacity 0.3s ease;
+
+.menu-open .nav-menu-icon {
+  transform: rotate(90deg);
 }
+
 
 /* 選單打開時的小變化 */
 .menu-open .nav-menu-icon {
