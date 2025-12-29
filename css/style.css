@@ -19,17 +19,16 @@ body {
 .navbar {
   position: fixed;
   top: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.85);
-  backdrop-filter: blur(6px);
+  left: 0;
+  width: auto;          /* 不要撐滿 */
+  background: none;     /* 拿掉背景 */
+  backdrop-filter: none;
   z-index: 1000;
 }
 
 .nav-inner {
-  padding: 56px 64px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  padding: 32px 32px;
+  display: block;   /* 不要 flex */
 }
 
 .nav-logo {
