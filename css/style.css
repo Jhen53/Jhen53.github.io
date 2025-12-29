@@ -421,3 +421,42 @@ footer {
 .nav-menu-icon:hover {
   opacity: 1;
 }
+.fullscreen-menu {
+  position: fixed;
+  inset: 0;
+  background: #f5f5f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.6s ease;
+}
+.menu-links {
+  list-style: none;
+  text-align: center;
+}
+
+.menu-links li {
+  margin: 32px 0;
+}
+
+.menu-links a {
+  text-decoration: none;
+  font-size: 48px;
+  letter-spacing: 6px;
+  color: #111;
+  font-weight: 300;
+  opacity: 0.85;
+  transition: opacity 0.3s;
+}
+
+.menu-links a:hover {
+  opacity: 1;
+}
+.fullscreen-menu.active {
+  opacity: 1;
+  pointer-events: auto;
+}
