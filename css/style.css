@@ -410,12 +410,12 @@ footer {
 }
 /* ===== Minimal Menu Icon ===== */
 .nav-menu-icon {
-  font-size: 96px;   /* 關鍵 */
+  font-weight: 300;
+  font-size: 96px;      /* 你想要的大 */
   cursor: pointer;
   color: #111;
-  opacity: 0.85;
-  user-select: none;
-  letter-spacing: 2px;
+  opacity: 0.9;
+  line-height: 1;       /* 很重要，避免撐高 */
 }
 
 .nav-menu-icon:hover {
