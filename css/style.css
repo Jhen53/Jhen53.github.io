@@ -481,3 +481,12 @@ footer {
 .page-hero p {
   color: #555 !important;
 }
+/* ===== Global Page Headings Color Fix ===== */
+
+/* 所有分頁的大標題 */
+.page-title,
+.section-title,
+h1,
+h2 {
+  color: #ffffff;
+}
