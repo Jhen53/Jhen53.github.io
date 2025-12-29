@@ -31,32 +31,6 @@ body {
   display: block;   /* 不要 flex */
 }
 
-.nav-logo {
-  font-size: 16px;
-  letter-spacing: 3px;
-  font-weight: 500;
-}
-
-
-.nav-menu {
-  list-style: none;
-  display: flex;
-  gap: 32px;
-}
-
-.nav-menu a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 12px;
-  letter-spacing: 2px;
-  opacity: 0.7;
-  transition: opacity 0.3s;
-}
-
-.nav-menu a:hover {
-  opacity: 1;
-}
-
 /* ===== Hero ===== */
 .hero {
   min-height: 100vh;
@@ -64,7 +38,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: translateY(-40px); /* 一定會看到變化 */
 }
 
 
@@ -500,7 +473,3 @@ footer {
 .fullscreen-menu.active .menu-links li:nth-child(2) { transition-delay: 0.10s; }
 .fullscreen-menu.active .menu-links li:nth-child(3) { transition-delay: 0.15s; }
 .fullscreen-menu.active .menu-links li:nth-child(4) { transition-delay: 0.20s; }
-
-.menu:not(.open) .menu-item {
-  transition-duration: 0.15s;
-}
