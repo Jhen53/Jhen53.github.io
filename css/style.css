@@ -477,3 +477,6 @@ footer {
 .menu:not(.open) .menu-item {
   transition-duration: 0.15s;
 }
+.hero {
+  transition: none !important;
+}
