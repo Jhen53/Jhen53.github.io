@@ -35,10 +35,11 @@ body {
 }
 
 .nav-logo {
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 3px;
-  font-weight: bold;
+  font-weight: 500;
 }
+
 
 .nav-menu {
   list-style: none;
@@ -412,11 +413,12 @@ footer {
 }
 /* ===== Minimal Menu Icon ===== */
 .nav-menu-icon {
-  font-size: 18px;
+  font-size: 26px;   /* 關鍵 */
   cursor: pointer;
-  color: #222;
-  opacity: 0.8;
+  color: #111;
+  opacity: 0.85;
   user-select: none;
+  letter-spacing: 2px;
 }
 
 .nav-menu-icon:hover {
