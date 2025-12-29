@@ -456,3 +456,15 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+/* ===== Page Header – White Version ===== */
+.characters-hero {
+  background: #f5f5f3;
+}
+
+.characters-hero h1 {
+  color: #111;
+}
+
+.characters-hero p {
+  color: #555;
+}
