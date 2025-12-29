@@ -413,7 +413,7 @@ footer {
 }
 /* ===== Minimal Menu Icon ===== */
 .nav-menu-icon {
-  font-size: 50px;   /* 關鍵 */
+  font-size: 72px;   /* 關鍵 */
   cursor: pointer;
   color: #111;
   opacity: 0.85;
