@@ -28,7 +28,7 @@ body {
 .nav-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 28px 40px;
+  padding: 40px 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -413,7 +413,7 @@ footer {
 }
 /* ===== Minimal Menu Icon ===== */
 .nav-menu-icon {
-  font-size: 26px;   /* 關鍵 */
+  font-size: 38px;   /* 關鍵 */
   cursor: pointer;
   color: #111;
   opacity: 0.85;
