@@ -503,3 +503,7 @@ h1,
 h2 {
   color: #ffffff !important;
 }
+/* ===== ABSOLUTE FINAL COLOR OVERRIDE ===== */
+body {
+  color: #ffffff !important;
+}
