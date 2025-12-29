@@ -490,3 +490,16 @@ h1,
 h2 {
   color: #ffffff;
 }
+/* ===== FORCE ALL TITLES TO WHITE (FINAL FIX) ===== */
+
+.hero-title,
+.characters-hero h1,
+.characters-hero p,
+.page-header h1,
+.page-header p,
+.world-title,
+.section h2,
+h1,
+h2 {
+  color: #ffffff !important;
+}
