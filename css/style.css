@@ -438,3 +438,17 @@ footer {
 .hero {
   transition: none !important;
 }
+/* ===== Menu item pop back (safe override) ===== */
+
+.menu-links li {
+  opacity: 0;
+  transform: translateY(12px);
+  transition:
+    opacity 0.3s ease-out,
+    transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.menu-open .menu-links li {
+  opacity: 1;
+  transform: translateY(0);
+}
