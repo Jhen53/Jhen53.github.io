@@ -164,3 +164,19 @@ footer {
   padding-top: 96px;
   padding-bottom: 56px;
 }
+/* ===== Featured Event Image Placeholder ===== */
+.featured-image {
+  width: 100%;
+  height: 420px;              /* 夠大，像真正官網 */
+  background: #e0e0de;        /* 倫敦官網感的灰 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 48px 0 56px;
+}
+
+.featured-image span {
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  opacity: 0.5;
+}
