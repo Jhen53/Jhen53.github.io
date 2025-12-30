@@ -242,3 +242,9 @@ footer {
   font-size: 15px;
   margin-bottom: 6px;
 }
+/* ===== NEWS – Top Story Emphasis ===== */
+
+.news-page .section:first-of-type strong {
+  font-size: 22px;      /* 比 update 大 */
+  letter-spacing: 0.02em;
+}
