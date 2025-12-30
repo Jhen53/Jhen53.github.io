@@ -122,3 +122,40 @@ footer {
   font-size: 12px;
   opacity: 0.5;
 }
+/* =========================
+   CASE FILE REFINEMENT
+   ========================= */
+
+.page-top {
+  padding-top: 120px;
+}
+
+.section {
+  padding: 80px 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+.section-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section h2 {
+  font-size: 14px;
+  letter-spacing: 0.18em;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.section p {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #111;
+}
+.section strong {
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin-top: 12px;
+}
