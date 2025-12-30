@@ -127,7 +127,7 @@ footer {
    ========================= */
 
 .page-top {
-  padding-top: 80px;
+  padding-top: 64px;
 }
 
 .section {
@@ -158,4 +158,9 @@ footer {
   font-weight: 600;
   letter-spacing: 0.08em;
   margin-top: 12px;
+}
+/* ===== Characters Page – Compact Header ===== */
+.characters-page .page-hero {
+  padding-top: 96px;
+  padding-bottom: 56px;
 }
