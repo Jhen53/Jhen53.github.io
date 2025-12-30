@@ -203,3 +203,7 @@ footer {
   text-align: center;
   background: #e6e6e3;
 }
+/* ===== News Page Hero Divider ===== */
+.news-page .page-hero {
+  border-bottom: 1px solid #111;
+}
