@@ -189,6 +189,6 @@ footer {
 /* ===== News Page ===== */
 .news-section {
   padding: 80px 0;
-  background: transparent; /* 明確告訴它：不要底色 */
+  background: #f5f5f3; /* 明確告訴它：不要底色 */
   border-top: 1px solid #e5e5e5;
 }
