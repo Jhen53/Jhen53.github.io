@@ -1,4 +1,4 @@
-/* ===== Characters Page – Base ===== */
+/* ===== Characters Page – Clean & Isolated ===== */
 
 body {
   margin: 0;
@@ -7,13 +7,14 @@ body {
   color: #111;
 }
 
+/* 頁面主體 */
 .characters-page {
   max-width: 900px;
   margin: 0 auto;
   padding: 160px 24px 120px;
 }
-/* ===== Page Header ===== */
 
+/* 頁首 */
 .characters-header {
   text-align: center;
   margin-bottom: 120px;
@@ -22,7 +23,7 @@ body {
 .characters-header h1 {
   font-size: 42px;
   letter-spacing: 6px;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
 }
 
 .characters-header .subline {
@@ -30,12 +31,12 @@ body {
   letter-spacing: 2px;
   opacity: 0.6;
 }
-/* ===== Case File Block ===== */
 
+/* 單一案件 */
 .case-file {
-  border-top: 1px solid #ddd;
-  padding-top: 64px;
   margin-bottom: 120px;
+  padding-top: 64px;
+  border-top: 1px solid #ddd;
 }
 
 .case-title {
@@ -44,8 +45,8 @@ body {
   margin-bottom: 32px;
   opacity: 0.7;
 }
-/* ===== Case Grid Layout ===== */
 
+/* Grid 排版（關鍵） */
 .case-grid {
   display: grid;
   grid-template-columns: 160px 1fr;
@@ -53,16 +54,20 @@ body {
   column-gap: 32px;
 }
 
+/* 左欄 */
 .label {
   font-size: 12px;
   letter-spacing: 2px;
   opacity: 0.6;
 }
 
+/* 右欄 */
 .value {
   font-size: 15px;
   line-height: 1.8;
 }
+
+/* 狀態強調 */
 .status-active {
   font-weight: bold;
 }
@@ -71,6 +76,7 @@ body {
   font-weight: bold;
 }
 
+/* 備註 */
 .note {
   opacity: 0.85;
 }
