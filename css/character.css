@@ -1,26 +1,18 @@
 /* =========================
-   Characters Page – Layout
-   Modern / Official / Film
+   Characters Page
+   Uses style.css as base
    ========================= */
 
-/* 基本排版（模仿 hero 的閱讀感） */
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  margin: 0;
-}
-
-/* 整個頁面的可閱讀寬度 */
 .characters-page {
   max-width: 900px;
   margin: 0 auto;
-  padding: 120px 24px 160px;
+  padding-top: 140px;
+  padding-bottom: 160px;
 }
 
-/* 頁面標題 */
+/* 標題區 */
 .characters-header {
-  margin-bottom: 80px;
+  margin-bottom: 96px;
 }
 
 .characters-header h1 {
@@ -36,59 +28,46 @@ body {
 
 /* 每一個案件 */
 .case-file {
-  margin-bottom: 120px;
+  margin-bottom: 140px;
 }
 
-/* CASE FILE 標籤 */
+/* CASE FILE 小標 */
 .case-title {
   font-size: 13px;
   letter-spacing: 0.12em;
   opacity: 0.6;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 
-/* 核心：案件資料排版 */
+/* 核心資料排版 */
 .case-grid {
   display: grid;
-  grid-template-columns: 180px 1fr;
-  row-gap: 20px;
-  column-gap: 24px;
+  grid-template-columns: 200px 1fr;
+  row-gap: 24px;
+  column-gap: 32px;
 }
 
-/* 左欄（欄位名稱） */
+/* 左欄標籤 */
 .case-grid .label {
   font-size: 13px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   opacity: 0.6;
 }
 
-/* 右欄（內容） */
+/* 右欄內容 */
 .case-grid .value {
   font-size: 16px;
-}
-
-/* 狀態強調 */
-.status-active {
-  font-weight: 600;
-}
-
-.threat-high {
-  font-weight: 600;
-}
-
-/* 備註文字 */
-.case-grid .note {
   line-height: 1.7;
 }
 
-/* 手機簡化 */
-@media (max-width: 640px) {
+/* 手機版 */
+@media (max-width: 768px) {
   .case-grid {
     grid-template-columns: 1fr;
   }
 
   .case-grid .label {
-    margin-top: 24px;
+    margin-top: 32px;
   }
 
   .case-grid .label:first-child {
