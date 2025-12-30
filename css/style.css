@@ -186,9 +186,14 @@ footer {
   text-align: center;
   background: #e6e6e3;   /* 灰底只在 CITY OF */
 }
-/* ===== News Page ===== */
-.news-section {
-  padding: 80px 0;
-  background: #f5f5f3; /* 明確告訴它：不要底色 */
-  border-top: 1px solid #e5e5e5;
+/* ===== NEWS PAGE OVERRIDE ===== */
+/* 強制 News 頁不要任何灰底 */
+.news-page .section {
+  background: transparent !important;
+}
+
+/* 如果有 placeholder，也一起關掉 */
+.news-page .placeholder {
+  background: transparent !important;
+  border: 1px solid #e5e5e5;
 }
