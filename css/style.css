@@ -199,5 +199,7 @@ footer {
 }
 /* ===== World Page Hero ===== */
 .world-page .page-hero {
+  padding: 160px 24px 100px;
+  text-align: center;
   background: #e6e6e3;
 }
