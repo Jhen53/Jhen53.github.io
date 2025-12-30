@@ -2,90 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Characters – City Archive</title>
+  <title>Characters | Official Film Project</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/characters.css">
 </head>
 
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="nav-inner">
-      <div class="nav-menu-icon" id="menuToggle">☰</div>
-    </div>
-  </nav>
-
-  <!-- Fullscreen Menu -->
-  <div class="fullscreen-menu" id="menu">
-    <ul class="menu-links">
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="characters.html">CHARACTERS</a></li>
-      <li><a href="world.html">WORLD</a></li>
-      <li><a href="teaser.html">TEASER</a></li>
-      <li><a href="news.html">NEWS</a></li>
-    </ul>
+<!-- Navigation（沿用你現在的） -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <div class="nav-menu-icon" id="menuToggle">☰</div>
   </div>
+</nav>
 
-  <!-- Page Header -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1 class="hero-title">CITY ARCHIVE</h1>
-      <p class="hero-tagline">
-        Official records of registered and unclassified residents.
-      </p>
+<div class="fullscreen-menu" id="menu">
+  <ul class="menu-links">
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="characters.html">CHARACTERS</a></li>
+    <li><a href="world.html">WORLD</a></li>
+    <li><a href="teaser.html">TEASER</a></li>
+    <li><a href="news.html">NEWS</a></li>
+  </ul>
+</div>
+
+<main class="characters-page">
+
+  <header class="characters-header">
+    <h1>ACTIVE CASES</h1>
+    <p class="subline">City Security Bureau / Public Notice</p>
+  </header>
+
+  <!-- Snake -->
+  <section class="case-file">
+    <div class="case-title">CASE FILE</div>
+
+    <div class="case-grid">
+      <div class="label">SUBJECT</div>
+      <div class="value">Unknown</div>
+
+      <div class="label">SPECIES</div>
+      <div class="value">Snake</div>
+
+      <div class="label">CASE STATUS</div>
+      <div class="value status-active">ACTIVE</div>
+
+      <div class="label">THREAT LEVEL</div>
+      <div class="value threat-high">HIGH</div>
+
+      <div class="label">LAST SEEN</div>
+      <div class="value">
+        Formal event venue, upper district.<br>
+        Unauthorized access reported during private gala.
+      </div>
+
+      <div class="label">OFFICIAL NOTE</div>
+      <div class="value note">
+        Subject is considered extremely dangerous.<br>
+        Do not attempt contact or interception.<br>
+        Any sightings must be reported immediately
+        to local security authorities.
+      </div>
     </div>
   </section>
 
-  <!-- Character : Snake -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1 class="hero-title">SNAKE</h1>
-      <p class="hero-tagline">
-        NAME<br>
-        Not available<br><br>
+  <!-- Fox -->
+  <section class="case-file">
+    <div class="case-title">CASE FILE</div>
 
-        SPECIES<br>
-        Snake<br><br>
+    <div class="case-grid">
+      <div class="label">SUBJECT</div>
+      <div class="value">Unknown</div>
 
-        STATUS<br>
-        Unclassified<br><br>
+      <div class="label">SPECIES</div>
+      <div class="value">Fox</div>
 
-        DESCRIPTION<br>
-        A presence that does not fit<br>
-        within existing city categories.<br>
-        Observed performing routine labor<br>
-        across multiple lower districts.<br>
-        Visible in daily circulation,<br>
-        yet absent from formal records.
-      </p>
+      <div class="label">CASE STATUS</div>
+      <div class="value status-active">ACTIVE</div>
+
+      <div class="label">THREAT LEVEL</div>
+      <div class="value threat-high">HIGH</div>
+
+      <div class="label">LAST SEEN</div>
+      <div class="value">
+        Same event location.<br>
+        Departure recorded shortly after incident.
+      </div>
+
+      <div class="label">OFFICIAL NOTE</div>
+      <div class="value note">
+        Individual remains unidentified.<br>
+        No confirmed affiliation at this time.<br>
+        Report any relevant information
+        to the City Police Department.
+      </div>
     </div>
   </section>
 
-  <!-- Character : Fox -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1 class="hero-title">FOX</h1>
-      <p class="hero-tagline">
-        NAME<br>
-        Available<br><br>
+</main>
 
-        SPECIES<br>
-        Fox<br><br>
-
-        STATUS<br>
-        Registered<br><br>
-
-        DESCRIPTION<br>
-        Fully recognized by the city system.<br>
-        Granted access to institutional and social structures<br>
-        unavailable to most residents.<br>
-        Maintains distance<br>
-        not through exclusion,<br>
-        but by choice.
-      </p>
-    </div>
-  </section>
-
-  <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
