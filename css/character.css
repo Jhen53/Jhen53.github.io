@@ -1,82 +1,97 @@
-/* ===== Characters Page – Clean & Isolated ===== */
+/* =========================
+   Characters Page – Layout
+   Modern / Official / Film
+   ========================= */
 
+/* 基本排版（模仿 hero 的閱讀感） */
 body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f5f5f3;
-  color: #111;
 }
 
-/* 頁面主體 */
+/* 整個頁面的可閱讀寬度 */
 .characters-page {
   max-width: 900px;
   margin: 0 auto;
-  padding: 160px 24px 120px;
+  padding: 120px 24px 160px;
 }
 
-/* 頁首 */
+/* 頁面標題 */
 .characters-header {
-  text-align: center;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 
 .characters-header h1 {
-  font-size: 42px;
-  letter-spacing: 6px;
-  margin: 0 0 16px;
+  font-size: 32px;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
 }
 
 .characters-header .subline {
-  font-size: 13px;
-  letter-spacing: 2px;
+  font-size: 14px;
   opacity: 0.6;
 }
 
-/* 單一案件 */
+/* 每一個案件 */
 .case-file {
   margin-bottom: 120px;
-  padding-top: 64px;
-  border-top: 1px solid #ddd;
 }
 
+/* CASE FILE 標籤 */
 .case-title {
-  font-size: 14px;
-  letter-spacing: 3px;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  opacity: 0.6;
   margin-bottom: 32px;
-  opacity: 0.7;
 }
 
-/* Grid 排版（關鍵） */
+/* 核心：案件資料排版 */
 .case-grid {
   display: grid;
-  grid-template-columns: 160px 1fr;
+  grid-template-columns: 180px 1fr;
   row-gap: 20px;
-  column-gap: 32px;
+  column-gap: 24px;
 }
 
-/* 左欄 */
-.label {
-  font-size: 12px;
-  letter-spacing: 2px;
+/* 左欄（欄位名稱） */
+.case-grid .label {
+  font-size: 13px;
+  letter-spacing: 0.1em;
   opacity: 0.6;
 }
 
-/* 右欄 */
-.value {
-  font-size: 15px;
-  line-height: 1.8;
+/* 右欄（內容） */
+.case-grid .value {
+  font-size: 16px;
 }
 
 /* 狀態強調 */
 .status-active {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .threat-high {
-  font-weight: bold;
+  font-weight: 600;
 }
 
-/* 備註 */
-.note {
-  opacity: 0.85;
+/* 備註文字 */
+.case-grid .note {
+  line-height: 1.7;
+}
+
+/* 手機簡化 */
+@media (max-width: 640px) {
+  .case-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .case-grid .label {
+    margin-top: 24px;
+  }
+
+  .case-grid .label:first-child {
+    margin-top: 0;
+  }
 }
