@@ -248,3 +248,11 @@ footer {
   font-size: 22px;      /* 比 update 大 */
   letter-spacing: 0.02em;
 }
+/* ===== NEWS – Update Separators ===== */
+
+.news-page .section:not(:first-of-type) p strong {
+  display: block;
+  padding-top: 24px;
+  margin-top: 32px;
+  border-top: 1px solid #e2e2e2;  /* 很淡的灰線 */
+}
