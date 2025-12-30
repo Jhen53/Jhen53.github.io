@@ -181,7 +181,8 @@ footer {
   opacity: 0.5;
 }
 /* ===== HERO EVENT (CITY + GALA) ===== */
-.hero-event {
-  background: #e6e6e3;   /* 比頁面白再深一點的灰 */
-  padding-bottom: 120px;
+.page-hero {
+  padding: 160px 24px 100px;
+  text-align: center;
+  background: #e6e6e3;   /* 灰底只在 CITY OF */
 }
