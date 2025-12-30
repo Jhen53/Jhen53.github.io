@@ -180,3 +180,8 @@ footer {
   letter-spacing: 0.18em;
   opacity: 0.5;
 }
+/* ===== HERO EVENT (CITY + GALA) ===== */
+.hero-event {
+  background: #e6e6e3;   /* 比頁面白再深一點的灰 */
+  padding-bottom: 120px;
+}
