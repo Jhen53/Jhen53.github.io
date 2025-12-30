@@ -186,3 +186,9 @@ footer {
   text-align: center;
   background: #e6e6e3;   /* 灰底只在 CITY OF */
 }
+/* ===== News Page ===== */
+.news-section {
+  padding: 80px 0;
+  background: transparent; /* 明確告訴它：不要底色 */
+  border-top: 1px solid #e5e5e5;
+}
